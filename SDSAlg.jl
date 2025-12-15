@@ -79,6 +79,7 @@ module SDSAlg
     function Rammal_procedure(λ=Vector{Float64}; eps::Float64=1e-6)
         @assert 1.0 in λ "λ must contain the value 1"
         @assert  sum(isa.(λ, Real))==length(λ) "the spectrum must be real"
+        λ=(sort(λ, rev=true))
         A=@time return_SM(λ; eps=eps)
         X=zeros(size(A))
         Y=copy(A)
