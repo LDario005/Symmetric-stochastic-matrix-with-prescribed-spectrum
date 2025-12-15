@@ -1,0 +1,12 @@
+name = "SDSAlg"
+uuid = "29f7e2f8-bc6a-494b-808c-acb57e376534"
+authors = ["rosci "]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+[compat]
+LinearAlgebra = "1.11.0"
+ProgressMeter = "1.11.0"
