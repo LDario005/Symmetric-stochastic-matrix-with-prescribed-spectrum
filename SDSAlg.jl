@@ -76,7 +76,7 @@ module SDSAlg
         Complete procedure to find a symmetric stochastic matrix with spectrum γ;
         γ must contain the value 1 and all its entries must be real.
     """
-    function Rammal_Procedure(λ=Vector{Float64}; eps::Float64=1e-6)
+    function Rammal_procedure(λ=Vector{Float64}; eps::Float64=1e-6)
         @assert 1.0 in λ "λ must contain the value 1"
         @assert  sum(isa.(λ, Real))==length(λ) "the spectrum must be real"
         A=@time return_SM(λ; eps=eps)
@@ -96,4 +96,4 @@ module SDSAlg
         finish!(prog)
     end
         
-end # module SDSAlg
+end 
