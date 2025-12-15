@@ -1,2 +1,2 @@
-# Symmetric-stochastic-matrix-with-prescribed-spectrum
-In this repository I present the algorithm developed by Rammal et al to numerically build a symmetric stochastic matrix with a prescribed spectrum of eigenvalues
+# Symmetric stochastic matrix with prescribed spectrum
+In this repository I present the algorithm developed by [Rammal et al.](https://iopscience.iop.org/article/10.1088/1361-6420/acd273/pdf?casa_token=BPDaeP8Kd7oAAAAA:waRkl-MzQAARWvrsqwu4QI09HbiatZPKH9DPth8C_xPBMyUp5F4NN472NMmCNhRTRI-PjCc49HRVdWsFFoX17spktEGE) to numerically build a symmetric stochastic matrix with a prescribed spectrum of eigenvalues.
